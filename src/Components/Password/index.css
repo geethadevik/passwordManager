@@ -1,0 +1,217 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #9ba9ed;
+  padding: 30px;
+}
+.logo-image {
+  height: 100px;
+  width: 300px;
+  margin-bottom: 15px;
+}
+.password-container {
+  background-color: #5763a5;
+  background-size: cover;
+  width: 85%;
+  padding: 30px;
+  border: 0px none;
+  border-radius: 15px;
+  display: flex;
+  margin: 20px;
+}
+.password-manager-image {
+  height: 500px;
+  width: 550px;
+  margin-left: 100px;
+}
+.password-content-container {
+  background-color: #454f84;
+  font-family: 'Roboto';
+  padding: 20px;
+  border: 0px none;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+.heading {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.web-input-container {
+  display: flex;
+  border-radius: 5px;
+  border: 0px none;
+  padding: 10px;
+  background-color: white;
+  width: 350px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.web-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.web-input {
+  outline: none;
+  background-color: transparent;
+  border: 0px none;
+  border-left: 1px solid #5763a5;
+  cursor: pointer;
+}
+.user-input-container {
+  display: flex;
+  border-radius: 5px;
+  border: 0px none;
+  padding: 10px;
+  background-color: white;
+  width: 350px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.user-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.user-name {
+  outline: none;
+  background-color: transparent;
+  border: 0px none;
+  border-left: 1px solid #5763a5;
+  cursor: pointer;
+}
+.password-input-container {
+  display: flex;
+  border-radius: 5px;
+  border: 0px none;
+  padding: 10px;
+  background-color: white;
+  width: 350px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.password-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.password {
+  outline: none;
+  background-color: transparent;
+  border: 0px none;
+  border-left: 1px solid #5763a5;
+  cursor: pointer;
+}
+.add-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.add-button {
+  background-color: #0b69ff;
+  border-radius: 5px;
+  border: 0px none;
+  cursor: pointer;
+  padding: 15px;
+  width: 100px;
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.password-item-container {
+  background-color: #5763a5;
+  background-size: cover;
+  width: 85%;
+  /* height: 100px; */
+  padding: 30px;
+  border: 0px none;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.password-title-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+.password-text-container {
+  display: flex;
+  color: white;
+}
+.password-count {
+  color: white;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: white;
+  border-style: solid;
+  padding: 15px;
+  padding-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+}
+.password-title {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.search-input-container {
+  display: flex;
+  background-color: #e2e8f0;
+  border-radius: 5px;
+  border: 0px none;
+  padding: 10px;
+  width: 350px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  outline: none;
+}
+.search-logo {
+  color: #454f84;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.search-input {
+  outline: none;
+  background-color: transparent;
+  border: 0px none;
+  border-left: 1px solid #5763a5;
+  cursor: pointer;
+}
+.show-password-container {
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  font-family: 'Roboto';
+}
+.no-passwords-container {
+  height: 500px;
+  width: 600px;
+}
+.list-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px;
+  margin-top: 24px;
+}
+.no-passwords-image {
+  height: 450px;
+  width: 550px;
+  margin-left: 100px;
+}
+p {
+  font-size: 30px;
+  font-family: 'Roboto';
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
